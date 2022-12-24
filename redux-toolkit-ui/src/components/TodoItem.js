@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TodoItem = () => {
+const TodoItem = ({value}) => {
     const completed = false
     return (
         <div className='flex justify-between items-center my-2'>
